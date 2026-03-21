@@ -1,0 +1,3 @@
+com\example\ecommerce_common_events\StockReservedEvent.class
+com\example\ecommerce_common_events\StockFailedEvent.class
+com\example\ecommerce_common_events\OrderCreatedEvent.class
