@@ -26,7 +26,7 @@ public class OrderCreatedEvent {
 		this.clientLon = clientLon;
         this.eventId = UUID.randomUUID().toString();   // 🔥 id único
         this.occurredAt = Instant.now();               // 🔥 marca de tiempo
-	}
+	}//
 	
 	
 	// getters & setters
