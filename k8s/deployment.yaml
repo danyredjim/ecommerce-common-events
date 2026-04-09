@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecommerce-common-events-api
+  labels:
+    app: ecommerce-common-events   # 🔥 agrupa toda la app
+    service: api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ecommerce-common-events
+  template:
+    metadata:
+      labels:
+        app: ecommerce-common-events
+    spec:
+      containers:
+        - name: ecommerce-common-events
+          image: localhost:5000/ecommerce-common-events:5
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          env:
+            - name: USERS_SERVICE_URL
+              value: http://ecommerce-common-events:8080   # 🔥 AÑADIDO
