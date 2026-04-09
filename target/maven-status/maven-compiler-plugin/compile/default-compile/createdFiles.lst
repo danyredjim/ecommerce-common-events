@@ -1,3 +1,12 @@
-com\example\ecommerce_common_events\StockReservedEvent.class
+com\example\events\OrderAvroCreatedEvent.class
 com\example\ecommerce_common_events\StockFailedEvent.class
+com\example\ecommerce_common_events\StockReservedEvent.class
+com\example\ecommerce_common_events\UserUpdatedEvent.class
 com\example\ecommerce_common_events\OrderCreatedEvent.class
+com\example\events\OrderAvroCreatedEvent$Builder.class
+com\example\ecommerce_common_events\PaymentFailedEvent.class
+com\example\ecommerce_common_events\PaymentCompletedEvent.class
+com\example\events\StockAvroReservedEvent$Builder.class
+com\example\events\StockAvroFailedEvent$Builder.class
+com\example\events\StockAvroFailedEvent.class
+com\example\events\StockAvroReservedEvent.class

@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "StockAvroFailedEvent",
+  "namespace": "com.example.events",
+  "fields": [
+    { "name": "eventId", "type": "string" },
+    { "name": "orderId", "type": "long" },
+    { "name": "reason", "type": "string" },
+    { "name": "instant", "type": "string" }
+  ]
+}

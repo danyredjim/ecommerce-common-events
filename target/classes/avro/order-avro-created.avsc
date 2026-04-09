@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "OrderAvroCreatedEvent",
+  "namespace": "com.example.events",
+  "fields": [
+    {"name": "eventId", "type": "string"},
+    {"name": "orderId", "type": "long"},
+    {"name": "productId", "type": "long"},
+    {"name": "quantity", "type": "int"},
+    {"name": "clientLat", "type": "double"},
+    {"name": "clientLon", "type": "double"},
+    {"name": "occurredAt", "type": "string"}
+  ]
+}

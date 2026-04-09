@@ -14,7 +14,7 @@ public class OrderCreatedEvent {
     private Instant occurredAt;//importante
     
     
-    
+
 	public OrderCreatedEvent() {}
 	
 	public OrderCreatedEvent(Long orderId, Long productId, int quantity, double clientLat, double clientLon) {
