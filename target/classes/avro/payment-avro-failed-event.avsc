@@ -1,11 +1,11 @@
 {
   "type": "record",
-  "name": "PaymentAvroCompletedEvent",
+  "name": "PaymentAvroFailedEvent",
   "namespace": "com.example.events",
   "fields": [
     { "name": "eventId", "type": "string" },
     { "name": "orderId", "type": "long" },
-    { "name": "transactionId", "type": "string" },
+    { "name": "reason", "type": "string" },
     { "name": "instant", "type": "string" }
   ]
 }

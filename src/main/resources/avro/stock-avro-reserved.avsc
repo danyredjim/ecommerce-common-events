@@ -1,13 +1,11 @@
 {
   "type": "record",
-  "name": "StockAvroReservedEvent",
+  "name": "PaymentAvroCompletedEvent",
   "namespace": "com.example.events",
   "fields": [
     { "name": "eventId", "type": "string" },
-    { "name": "uuid", "type": "string" },
     { "name": "orderId", "type": "long" },
-    { "name": "productId", "type": "long" },
-    { "name": "quantity", "type": "int" },
+    { "name": "transactionId", "type": "string" },
     { "name": "instant", "type": "string" }
   ]
 }

@@ -1,4 +1,3 @@
-C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\ecommerce_common_events\OrderAvroCreatedEvent.java
 C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\ecommerce_common_events\OrderCreatedEvent.java
 C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\ecommerce_common_events\PaymentCompletedEvent.java
 C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\ecommerce_common_events\PaymentFailedEvent.java
@@ -6,5 +5,7 @@ C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\s
 C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\ecommerce_common_events\StockReservedEvent.java
 C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\ecommerce_common_events\UserUpdatedEvent.java
 C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\events\OrderAvroCreatedEvent.java
+C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\events\PaymentAvroCompletedEvent.java
+C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\events\PaymentAvroFailedEvent.java
 C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\events\StockAvroFailedEvent.java
 C:\workspaceDEMO\Xxx\ecommersMyAmazonMicroserviceKafka\ecommerce-common-events\src\main\java\com\example\events\StockAvroReservedEvent.java
